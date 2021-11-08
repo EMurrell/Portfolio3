@@ -22,12 +22,12 @@ import { IconContext } from "react-icons";
 export default function Skills() {
   return (
     <section
-      id="About"
+      id="Tech"
       className="flex flex-col justify-center w-full h-screen pb-24 font-bold tracking-wider md:pb-6 bg-matte snap-y snap-start snap-always md:px-28 lg:px-36 xl:px-72"
     >
       <div className="flex flex-col text-offwhite font-logo ">
         <FadeUp>
-          <h1 className="pb-6 text-2xl text-center text-salmon md:text-3xl lg:text-5xl">
+          <h1 className="pb-6 text-2xl text-center md:text-3xl lg:text-5xl">
             Stack
           </h1>
           <p className="px-16 pb-6 text-center md:px-32 md:text-lg lg:text-xl">

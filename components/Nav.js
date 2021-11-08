@@ -9,9 +9,9 @@ import { FaDev } from "react-icons/fa";
 import { SiDevdotto } from "react-icons/si";
 
 const links = [
-  { name: "Home", to: "#Home", id: 1 },
-  { name: "About", to: "#About", id: 2 },
-  { name: "Work", to: "#Work", id: 3 },
+  { name: "About", to: "#About", id: 1 },
+  { name: "Work", to: "#Work", id: 2 },
+  { name: "Tech", to: "#Tech", id: 3 },
   { name: "Contact", to: "#Contact", id: 4 },
 ];
 
@@ -53,7 +53,7 @@ export default function Nav() {
             className="fixed right-0 h-screen bg-ltmatte lg:hidden font-logo"
             initial={{ width: 0 }}
             animate={{
-              width: "97%",
+              width: "95%",
             }}
             exit={{
               width: 0,

@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Work from "../components/Work";
-import Contact from "../components/Contact";
+import Contact2 from "../components/Contact2";
 
 export default function Home() {
   return (
@@ -14,9 +14,10 @@ export default function Home() {
       <body className="w-full h-screen overflow-auto snap-y snap-mandatory snap-start">
         <Header />
         <About />
-        <Skills />
+
         <Work />
-        <Contact />
+        <Skills />
+        <Contact2 />
       </body>
     </>
   );

@@ -3,8 +3,24 @@ import Head from "next/head";
 export default function Meta() {
   return (
     <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
+      <title>Eric Murrell</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="description" content="Full Stack Web Developer" />
+      <meta property="og:image" content="/meta999.jpg" />
+      <meta property="og:title" content="EMurrell.com" />
+      <meta
+        property="og:description"
+        content="Eric Murrell- Full Stack Web Developer"
+      />
+      <meta name="twitter:image" content="/meta999.jpg" />
+      <meta name="twitter:title" content="EMurrell.com" />
+      <meta
+        name="twitter:description"
+        content="Eric Murrell- Full Stack Web Developer"
+      />
+      <link rel="icon" href="/favicon.png" />
+
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
