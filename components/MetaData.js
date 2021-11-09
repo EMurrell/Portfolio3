@@ -19,7 +19,7 @@ export default function Meta() {
         name="twitter:description"
         content="Eric Murrell- Full Stack Web Developer"
       />
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="/em99bw.png" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link

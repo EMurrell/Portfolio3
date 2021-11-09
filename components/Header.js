@@ -67,7 +67,7 @@ export default function Header() {
           })}
         </motion.h1>
         <motion.div
-          className="pt-2 text-lg md:text-3xl lg:text-4xl 2xl:text-5xl"
+          className="flex pt-2 text-lg md:text-3xl lg:text-4xl 2xl:text-5xl"
           initial="hidden"
           animate="visible"
           variants={{
@@ -86,7 +86,7 @@ export default function Header() {
             },
           }}
         >
-          Full Stack Web Developer
+          <p>Full Stack Web Developer</p>
         </motion.div>
       </main>
     </section>

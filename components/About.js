@@ -25,7 +25,7 @@ export default function About() {
         <DelayedFadeIn>
           <p>
             I <span style={{ color: "#d8323c" }}>create</span> engaging digital
-            experiences through the use of animations and micro-interactions.
+            experiences through the use of animations and microinteractions.
           </p>
         </DelayedFadeIn>
         <br />

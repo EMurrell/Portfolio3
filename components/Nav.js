@@ -11,7 +11,7 @@ import { SiDevdotto } from "react-icons/si";
 const links = [
   { name: "About", to: "#About", id: 1 },
   { name: "Work", to: "#Work", id: 2 },
-  { name: "Tech", to: "#Tech", id: 3 },
+  { name: "Skills", to: "#Skills", id: 3 },
   { name: "Contact", to: "#Contact", id: 4 },
 ];
 

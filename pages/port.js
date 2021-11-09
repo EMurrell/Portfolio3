@@ -9,7 +9,7 @@ export default function Port() {
       <MetaData />
       <section
         id="port"
-        className="w-full min-h-screen px-5 pt-4 pb-24 font-bold tracking-wide font-logo text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32 "
+        className="w-full min-h-screen px-5 pt-4 pb-24 font-bold tracking-wide bg-matte font-logo text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32"
       >
         <div className="inline-flex justify-between w-full pt-2 mt-2 text-xs border-t-2 border-offwhite md:text-base">
           <p>Professional Portfolio</p>
@@ -32,14 +32,14 @@ export default function Port() {
                 </a>
               </button>
             </div>
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col md:flex-row font-body">
               <div className="pr-10 text-xl md:text-xl lg:text-2xl">
                 <p className="pb-6 lg:pb-12">
                   Brief:
                   <br /> I saught to create a portfolio site that would
                   challenge my skill-levels for both design and development. My
                   approach was to incorporate elements of minimalism with bold
-                  typography, and ochestrated animations.
+                  typography, and orchestrated animations.
                 </p>
                 <p>
                   Tools:

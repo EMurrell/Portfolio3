@@ -22,8 +22,8 @@ export default function Mtc() {
                 A collection of personal projects.
               </h3>
             </div>
-            <div className="inline-flex justify-center py-4 md:justify-end "></div>
-            <div className="flex flex-col ">
+
+            <div className="flex flex-col pt-4 font-body">
               <div className="pr-10 text-xl lg:w-3/4 md:text-xl lg:text-2xl">
                 <p className="pt-8 pb-6 lg:pb-20">
                   Brief:
@@ -33,14 +33,14 @@ export default function Mtc() {
                 </p>
               </div>
               <div className="pb-6 pr-10 text-xl md:text-xl lg:text-2xl lg:pb-20">
-                <p className="py-2">
-                  1. Next.js Single Page Starter
-                  <br /> An unopinionated, minimally-designed website template
-                  that is configured with fade-in animations that are triggered
-                  on scroll, and a navigation bar with animated sliding
-                  side-bar.
+                <p className="py-4 font-logo">1. Next.js Single Page Starter</p>
+                <p>
+                  {" "}
+                  An unopinionated, minimally-designed website template that is
+                  configured with fade-in animations that are triggered on
+                  scroll, and a navigation bar with animated sliding side-bar.
                 </p>
-                <div className="flex flex-col justify-between py-4 xl:flex-row">
+                <div className="flex flex-col justify-between py-4 xl:flex-row font-logo">
                   <button className="inline-flex justify-center px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 w-72 md:w-80 rounded-3xl hover:border-salmon hover:scale-105 hover:bg-salmon border-offwhite hover:text-matte ">
                     <a
                       className="text-sm md:text-sm lg:text-lg "

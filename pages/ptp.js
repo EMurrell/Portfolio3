@@ -32,7 +32,7 @@ export default function Ptp() {
                 </a>
               </button>
             </div>
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col md:flex-row font-body">
               <div className="pr-10 text-xl lg:w-1/2 md:w-2/3 md:text-xl lg:text-2xl">
                 <p className="pb-6 lg:pb-12">
                   Brief:

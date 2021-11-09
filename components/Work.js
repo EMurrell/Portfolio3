@@ -22,7 +22,7 @@ export default function Work() {
                 Mason's Touch Construction
               </span>
               <div className="flex flex-row justify-between pt-2">
-                <p className="text-xs tracking-widest ">
+                <p className="text-xs tracking-widest font-display">
                   website redesign/rebuild
                 </p>
                 <BsArrowUpRight />
