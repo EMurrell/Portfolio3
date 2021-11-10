@@ -16,6 +16,17 @@ export default function Work() {
       </FadeUp>
       <FadeIn>
         <div className="flex flex-col justify-center">
+          <Link href="/ptp">
+            <div className="flex flex-col p-4 my-2 transition duration-200 ease-in-out transform rounded-sm shadow-2xl cursor-pointer hover:scale-105 bg-salmon">
+              <span className="text-sm md:text-xl lg:text-2xl">Pup To Pal</span>
+              <div className="flex flex-row justify-between pt-2">
+                <p className="text-xs tracking-widest ">
+                  website and content creation
+                </p>
+                <BsArrowUpRight />
+              </div>
+            </div>
+          </Link>
           <Link href="/mtc">
             <div className="flex flex-col p-4 my-2 transition duration-200 ease-in-out transform rounded-sm shadow-2xl cursor-pointer hover:scale-105 bg-salmon">
               <span className="text-sm md:text-xl lg:text-2xl">
@@ -29,17 +40,7 @@ export default function Work() {
               </div>
             </div>
           </Link>
-          <Link href="/ptp">
-            <div className="flex flex-col p-4 my-2 transition duration-200 ease-in-out transform rounded-sm shadow-2xl cursor-pointer hover:scale-105 bg-salmon">
-              <span className="text-sm md:text-xl lg:text-2xl">Pup To Pal</span>
-              <div className="flex flex-row justify-between pt-2">
-                <p className="text-xs tracking-widest ">
-                  website and content creation
-                </p>
-                <BsArrowUpRight />
-              </div>
-            </div>
-          </Link>
+
           <Link href="/port">
             <div className="flex flex-col p-4 my-2 transition duration-200 ease-in-out transform rounded-sm shadow-2xl cursor-pointer hover:scale-105 bg-salmon">
               <span className="text-sm md:text-xl lg:text-2xl">Portfolio</span>
