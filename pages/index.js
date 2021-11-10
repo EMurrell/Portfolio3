@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Work from "../components/Work";
-import Contact2 from "../components/Contact2";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
 
         <Work />
         <Skills />
-        <Contact2 />
+        <Contact />
       </body>
     </>
   );
