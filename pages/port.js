@@ -23,7 +23,7 @@ export default function Port() {
               </h3>
             </div>
             <div className="inline-flex justify-center py-4 md:justify-end ">
-              <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-salmon hover:scale-105 hover:bg-salmon border-offwhite hover:text-matte ">
+              <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-300 hover:scale-105 hover:bg-teal-300 border-offwhite hover:text-matte">
                 <a
                   className="text-base md:text-lg lg:text-xl "
                   href="https://emurrell.com"

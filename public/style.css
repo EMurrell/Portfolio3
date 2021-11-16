@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply flex flex-col p-4 my-4 transition duration-200 ease-in-out transform rounded-md cursor-pointer bg-matteblue shadow-3xl hover:scale-105 text-offwhite xl:mx-12;
+  }
+
+  .icon {
+    @apply w-12 h-12 m-4 md:w-16 md:h-16 lg:w-20 lg:h-20 hover:text-teal-300 filter drop-shadow-2xl;
+  }
+}

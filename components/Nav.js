@@ -1,12 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
 import { AnimatePresence, motion, useCycle } from "framer-motion";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import {
+  Github,
+  Devdotto,
+  Twitter,
+  ReactJs,
+} from "@icons-pack/react-simple-icons";
+import { MailIcon } from "@heroicons/react/outline";
 import { Sling as Hamburger } from "hamburger-react";
-import { BsGithub, BsTwitter } from "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
-import { FaDev } from "react-icons/fa";
-import { SiDevdotto } from "react-icons/si";
 
 const links = [
   { name: "About", to: "#About", id: 1 },
@@ -41,8 +43,8 @@ export default function Nav() {
   const [open, cycleOpen] = useCycle(false, true);
 
   return (
-    <nav className="flex justify-between w-full font-display bg-matte text-offwhite ">
-      <div className="inline-flex px-4 py-6 text-2xl font-extrabold font-logo lg:text-3xl 2xl:text-3xl md:pl-12 lg:pl-16">
+    <nav className="flex justify-between w-full text-offwhite font-display">
+      <div className="inline-flex px-4 py-6 text-2xl font-extrabold bg-transparent font-logo lg:text-3xl 2xl:text-3xl md:pl-12 lg:pl-16 ">
         EM
       </div>
 
@@ -50,7 +52,7 @@ export default function Nav() {
       <AnimatePresence>
         {open && (
           <motion.aside
-            className="fixed right-0 h-screen bg-ltmatte lg:hidden font-logo"
+            className="fixed right-0 h-screen bg-matteblue lg:hidden font-logo"
             initial={{ width: 0 }}
             animate={{
               width: "95%",
@@ -61,7 +63,7 @@ export default function Nav() {
             }}
           >
             <motion.div
-              className="flex flex-col p-8 ml-4 text-2xl md:ml-24 md:text-4xl"
+              className="flex flex-col p-8 ml-4 text-2xl md:ml-24 md:text-4x"
               initial="closed"
               animate="open"
               exit="closed"
@@ -70,25 +72,25 @@ export default function Nav() {
               <div className="pt-10 ">Eric Murrell</div>
               <div className="flex flex-row pb-32 md:pb-40">
                 <a href="https://github.com/EMurrell">
-                  <BsGithub className="my-6 mr-6 transition duration-100 ease-in-out transform w-7 h-7 text-offwhite hover:scale-110 hover:text-salmon" />
+                  <Github className="my-6 mr-6 transition duration-100 ease-in-out transform w-7 h-7 text-offwhite hover:scale-110 hover:text-teal-300" />
                 </a>
                 <a href="mailto:emurrell.dev@gmail.com">
-                  <AiOutlineMail className="w-8 h-8 my-6 mr-6 transition duration-100 ease-in-out transform text-offwhite hover:scale-110 hover:text-salmon" />
+                  <MailIcon className="w-8 h-8 my-6 mr-6 transition duration-100 ease-in-out transform text-offwhite hover:scale-110 hover:text-teal-300" />
                 </a>
 
                 <a href="https://twitter.com/MurrellWeb">
-                  <BsTwitter className="my-6 mr-6 transition duration-100 ease-in-out transform w-7 h-7 text-offwhite hover:scale-110 hover:text-salmon" />
+                  <Twitter className="my-6 mr-6 transition duration-100 ease-in-out transform w-7 h-7 text-offwhite hover:scale-110 hover:text-teal-300" />
                 </a>
 
                 <a href="https://dev.to/emurrell">
-                  <FaDev className="my-6 transition duration-100 ease-in-out transform w-7 h-7 text-offwhite hover:scale-110 hover:text-salmon" />
+                  <Devdotto className="w-8 h-8 my-6 transition duration-100 ease-in-out transform text-offwhite hover:scale-110 hover:text-teal-300" />
                 </a>
               </div>
               {links.map(({ name, to, id }) => (
                 <motion.a
                   key={id}
                   href={to}
-                  className="flex my-4 transition duration-100 ease-in-out transform text-offwhite hover:text-salmon hover:scale-105"
+                  className="flex my-4 text-teal-200 transition duration-100 ease-in-out transform hover:text-offwhite hover:scale-105"
                   variants={itemVariants}
                   aria-current={links.current ? "page" : undefined}
                   onClick={cycleOpen}
@@ -115,7 +117,7 @@ export default function Nav() {
           <a
             key={id}
             href={to}
-            className="px-8 py-6 text-lg transition duration-100 ease-in-out transform 2xl:text-xl font-logo text-offwhite hover:text-salmon hover:scale-105"
+            className="px-8 py-6 text-lg transition duration-100 ease-in-out transform 2xl:text-xl font-logo text-offwhite hover:text-teal-300 hover:scale-105"
           >
             {name}
           </a>

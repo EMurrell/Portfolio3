@@ -1,27 +1,43 @@
 module.exports = {
   mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
+      boxShadow: {
+        lg: "0 10px 15px -3px rgba(153, 50, 204, 0.1), 0 4px 6px -2px rgba(153, 50, 204, 0.05)",
+        "3xl": "0 3px 10px -2px rgba(255, 255, 255, 0.8)",
+      },
+      dropShadow: {
+        "2xl": "0 10px 40px rgba(102, 252, 241, 0.5)",
+        "3xl": "0 5px 40px rgba(255, 255, 255, 0.7)",
+      },
       fontSize: {
         "9xl": "7.5rem",
       },
+
       colors: {
-        navy: "#162B32",
         salmon: "#d8323c",
-        matte: "#161616",
+        matte: "#191919",
         ltmatte: "#303030",
         offwhite: "#f2f3f4",
-        ltblue: "#9dbeb7",
-        greenish: "#e0f8d0",
+        // dkpurple: "#0f0d15",
+        // dkpurple: "#050808",
+        dkpurple: "#000914",
+        ltpurple: "#0f0015",
+        vwblue: "#66fcf1",
+        vwblue2: "#45a29e",
+        matteblue: "#1f2833",
       },
     },
     fontFamily: {
       body: ["Space Grotesk"],
 
-      display: ["Poppins"],
       logo: ["Michroma"],
+      // logo: ["Michroma"],
     },
   },
   variants: {

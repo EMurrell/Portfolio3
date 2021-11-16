@@ -41,7 +41,7 @@ export default function Mtc() {
                   scroll, and a navigation bar with animated sliding side-bar.
                 </p>
                 <div className="flex flex-col justify-between py-4 xl:flex-row font-logo">
-                  <button className="inline-flex justify-center px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 w-72 md:w-80 rounded-3xl hover:border-salmon hover:scale-105 hover:bg-salmon border-offwhite hover:text-matte ">
+                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-300 hover:scale-105 hover:bg-teal-300 border-offwhite hover:text-matte">
                     <a
                       className="text-sm md:text-sm lg:text-lg "
                       href="https://next-js-singlepage-starter.vercel.app/"
@@ -49,7 +49,7 @@ export default function Mtc() {
                       VIEW PREVIEW&emsp;
                     </a>
                   </button>
-                  <button className="inline-flex justify-center px-10 py-2 my-4 text-sm transition duration-300 ease-in-out transform border-2 w-72 md:w-80 rounded-3xl hover:border-salmon hover:scale-105 hover:bg-salmon border-offwhite hover:text-matte ">
+                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-300 hover:scale-105 hover:bg-teal-300 border-offwhite hover:text-matte">
                     <a
                       className="text-sm md:text-sm lg:text-lg "
                       href="https://github.com/EMurrell/next.js-singlepage-starter"
@@ -57,7 +57,7 @@ export default function Mtc() {
                       VIEW ON GITHUB&emsp;
                     </a>
                   </button>
-                  <button className="inline-flex justify-center px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 w-72 md:w-80 rounded-3xl hover:border-salmon hover:scale-105 hover:bg-salmon border-offwhite hover:text-matte ">
+                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-300 hover:scale-105 hover:bg-teal-300 border-offwhite hover:text-matte">
                     <a
                       className="text-sm md:text-sm lg:text-lg "
                       href="https://dev.to/emurrell/a-nextjs-starter-configured-with-nav-and-animations-lac"
