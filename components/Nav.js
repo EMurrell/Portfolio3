@@ -63,7 +63,7 @@ export default function Nav() {
             }}
           >
             <motion.div
-              className="flex flex-col p-8 ml-4 text-2xl md:ml-24 md:text-4x"
+              className="flex flex-col p-8 ml-4 text-2xl md:ml-24 md:text-4xl"
               initial="closed"
               animate="open"
               exit="closed"

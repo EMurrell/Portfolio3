@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       boxShadow: {
         lg: "0 10px 15px -3px rgba(153, 50, 204, 0.1), 0 4px 6px -2px rgba(153, 50, 204, 0.05)",
-        "3xl": "0 3px 10px -2px rgba(255, 255, 255, 0.8)",
+        "3xl": "0 3px 10px -2px rgba(255, 255, 255, 0.6)",
       },
       dropShadow: {
         "2xl": "0 10px 40px rgba(102, 252, 241, 0.5)",
@@ -34,7 +34,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      body: ["Space Grotesk"],
+      body: ["Helvetica"],
 
       logo: ["Michroma"],
       // logo: ["Michroma"],

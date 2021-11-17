@@ -9,7 +9,7 @@ export default function Mtc() {
       <MetaData />
       <section
         id="starters"
-        className="w-full min-h-screen px-5 pt-4 tracking-wide font-logo bg-matte text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32"
+        className="w-full min-h-screen px-5 pt-4 tracking-wide font-logo bg-gradient-to-b from-black to-black via-matteblue text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32"
       >
         <div className="inline-flex justify-between w-full pt-2 mt-2 text-xs border-t-2 border-ltblack dark:border-offwhite md:text-base">
           <p>UI Components & Starters</p>
@@ -23,7 +23,7 @@ export default function Mtc() {
               </h3>
             </div>
 
-            <div className="flex flex-col pt-4 font-body">
+            <div className="flex flex-col pt-4 font-light font-body">
               <div className="pr-10 text-xl lg:w-3/4 md:text-xl lg:text-2xl">
                 <p className="pt-8 pb-6 lg:pb-20">
                   Brief:
@@ -41,7 +41,7 @@ export default function Mtc() {
                   scroll, and a navigation bar with animated sliding side-bar.
                 </p>
                 <div className="flex flex-col justify-between py-4 xl:flex-row font-logo">
-                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-300 hover:scale-105 hover:bg-teal-300 border-offwhite hover:text-matte">
+                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-400 hover:scale-105 hover:bg-teal-400 border-offwhite hover:text-matte">
                     <a
                       className="text-sm md:text-sm lg:text-lg "
                       href="https://next-js-singlepage-starter.vercel.app/"
@@ -49,7 +49,7 @@ export default function Mtc() {
                       VIEW PREVIEW&emsp;
                     </a>
                   </button>
-                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-300 hover:scale-105 hover:bg-teal-300 border-offwhite hover:text-matte">
+                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-400 hover:scale-105 hover:bg-teal-400 border-offwhite hover:text-matte">
                     <a
                       className="text-sm md:text-sm lg:text-lg "
                       href="https://github.com/EMurrell/next.js-singlepage-starter"
@@ -57,7 +57,7 @@ export default function Mtc() {
                       VIEW ON GITHUB&emsp;
                     </a>
                   </button>
-                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-300 hover:scale-105 hover:bg-teal-300 border-offwhite hover:text-matte">
+                  <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-400 hover:scale-105 hover:bg-teal-400 border-offwhite hover:text-matte">
                     <a
                       className="text-sm md:text-sm lg:text-lg "
                       href="https://dev.to/emurrell/a-nextjs-starter-configured-with-nav-and-animations-lac"

@@ -8,7 +8,7 @@ export default function About() {
   return (
     <section
       id="About"
-      className="flex flex-col justify-center w-full h-screen p-12 pb-32 font-bold tracking-wider text-offwhite font-logo bg-gradient-to-br from-black to-matteblue via-black snap-y snap-start snap-always md:px-32 lg:px-44 xl:px-72"
+      className="flex flex-col justify-center w-full h-screen p-12 pb-32 font-bold tracking-wider text-offwhite font-logo bg-gradient-to-br from-black to-matteblue via-black snap-y snap-start snap-always md:px-32 lg:px-44 xl:px-72 "
     >
       <div className="flex flex-col text-lg md:text-xl lg:text-2xl ">
         <FadeUp>
