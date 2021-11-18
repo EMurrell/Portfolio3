@@ -60,7 +60,7 @@ export default function Header() {
               <motion.span
                 key={char + "-" + index}
                 variants={letter}
-                className="text-4xl tracking-wider md:text-6xl lg:text-7xl 2xl:text-8xl"
+                className="text-4xl tracking-wider md:text-6xl lg:text-7xl 2xl:text-8xl "
               >
                 {char}
               </motion.span>

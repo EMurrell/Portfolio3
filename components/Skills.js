@@ -29,10 +29,10 @@ export default function Skills() {
     >
       <div className="flex flex-col text-offwhite font-logo ">
         <FadeUp>
-          <h1 className="pb-6 text-2xl text-center md:text-3xl lg:text-5xl filter drop-shadow-3xl">
+          <h1 className="pb-6 text-2xl text-center md:text-3xl lg:text-5xl filter drop-shadow-3xl ">
             Tech Stack
           </h1>
-          <p className="px-16 pb-6 text-center md:px-32 md:text-lg lg:text-xl">
+          <p className="px-16 pb-6 text-center md:px-32 md:text-lg lg:text-xl ">
             Some of the tools and technologies I use every day
           </p>
         </FadeUp>

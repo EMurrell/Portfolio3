@@ -31,6 +31,7 @@ module.exports = {
         vwblue: "#66fcf1",
         vwblue2: "#45a29e",
         matteblue: "#1f2833",
+        matteblue2: "#060f1a",
       },
     },
     fontFamily: {
