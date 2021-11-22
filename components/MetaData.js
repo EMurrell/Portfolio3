@@ -13,9 +13,12 @@ export default function Meta() {
         property="og:description"
         content="Eric Murrell- Full Stack Web Developer"
       />
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@MurrellWeb" />
-      <meta name="twitter:image" content="/metaBlue3.jpg" />
+      <meta
+        name="twitter:image"
+        content="https://i.postimg.cc/65pJNRwk/meta-Blue3.jpg"
+      />
       <meta name="twitter:title" content="EMurrell.com" />
       <meta
         name="twitter:description"
