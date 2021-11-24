@@ -22,7 +22,7 @@ export default function About() {
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-700 to-teal-200 via-teal-400 drop-shadow-3xl">
               develop
             </span>{" "}
-            fast, modern, and secure JAMstack websites.
+            fast, responsive, and secure JAMstack websites.
           </p>
         </FadeIn>
         <DelayedFadeIn>
