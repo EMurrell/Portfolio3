@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import Nav from "./Nav";
 import FadeIn from "../animations/FadeIn";
 import FadeUp from "../animations/FadeUp";
+import { Github, Devdotto, Twitter } from "@icons-pack/react-simple-icons";
+import { MailIcon } from "@heroicons/react/outline";
 
 const line1 = "Eric Murrell";
 
@@ -53,7 +55,7 @@ export default function Header() {
       >
         <Nav />
       </motion.div>
-      <main className="flex flex-col justify-center flex-1 h-screen pb-40 pl-5 font-extrabold tracking-wide font-logo md:pl-12 lg:pl-16">
+      <main className="flex flex-col justify-center flex-1 h-screen pb-20 pl-5 font-bold tracking-wide lg:leading-loose font-logo md:pl-12 lg:pl-16">
         <motion.h1 variants={headline} initial="hidden" animate="visible">
           {line1.split("").map((char, index) => {
             return (
@@ -67,8 +69,9 @@ export default function Header() {
             );
           })}
         </motion.h1>
+
         <motion.div
-          className="flex pt-2 text-lg md:text-3xl lg:text-4xl 2xl:text-5xl"
+          className="flex flex-col pt-2 text-lg md:text-3xl lg:text-4xl 2xl:text-5xl"
           initial="hidden"
           animate="visible"
           variants={{
@@ -88,6 +91,32 @@ export default function Header() {
           }}
         >
           <p>Full Stack Web Developer</p>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              scale: 1,
+              opacity: 0,
+              y: 0,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 2.6,
+                duration: 0.5,
+              },
+            },
+          }}
+        >
+          <a href="/#Contact">
+            <button className="p-2 mt-4 text-sm font-bold tracking-wider text-black transition duration-200 ease-in-out transform bg-transparent rounded-sm cursor-pointer w-36 lg:mt-6 bg-gradient-to-tr from-teal-600 to-teal-200 via-teal-400 lg:w-60 lg:text-lg hover:scale-105">
+              Contact Me
+            </button>
+          </a>
         </motion.div>
       </main>
     </section>

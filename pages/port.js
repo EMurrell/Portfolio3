@@ -23,7 +23,7 @@ export default function Port() {
               </h3>
             </div>
             <div className="inline-flex justify-center py-4 md:justify-end ">
-              <button className="inline-flex px-10 py-2 my-4 transition duration-300 ease-in-out transform border-2 rounded-3xl hover:border-teal-400 hover:scale-105 hover:bg-teal-400 border-offwhite hover:text-matte">
+              <button className="p-2 mt-4 mb-4 text-sm font-bold tracking-wider text-black transition duration-200 ease-in-out transform rounded-sm cursor-pointer w-60 md:w-72 hover:scale-110 lg:mt-6 bg-gradient-to-bl from-teal-600 to-teal-200 via-teal-400 lg:text-lg">
                 <a
                   className="text-base md:text-lg lg:text-xl "
                   href="https://emurrell.com"
@@ -32,14 +32,14 @@ export default function Port() {
                 </a>
               </button>
             </div>
-            <div className="flex flex-col font-light md:flex-row font-body">
+            <div className="flex flex-col font-normal md:flex-row font-body">
               <div className="pr-10 text-xl md:text-xl lg:text-2xl">
                 <p className="pb-6 lg:pb-12">
                   Brief:
                   <br /> I saught to create a portfolio site that would
-                  challenge my skill-levels for both design and development. My
-                  approach was to incorporate elements of minimalism with bold
-                  typography, and orchestrated animations.
+                  challenge my skill levels for both design and development. My
+                  approach was to incorporate elements of minimalism and
+                  futurism, with bold typography, and orchestrated animations.
                 </p>
                 <p>
                   Tools:
@@ -48,6 +48,11 @@ export default function Port() {
                 </p>
               </div>
             </div>
+            <Link href="/#Work">
+              <p className="mt-12 text-center cursor-pointer md:w-40 md:text-left 2xl:text-xl hover:text-teal-300">
+                &larr;Go Back
+              </p>
+            </Link>
           </div>
         </QuickFadeIn>
       </section>

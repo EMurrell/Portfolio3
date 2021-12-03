@@ -24,21 +24,18 @@ module.exports = {
         matte: "#191919",
         ltmatte: "#303030",
         offwhite: "#f2f3f4",
-        // dkpurple: "#0f0d15",
-        // dkpurple: "#050808",
         dkpurple: "#000914",
         ltpurple: "#0f0015",
         vwblue: "#66fcf1",
         vwblue2: "#45a29e",
         matteblue: "#1f2833",
-        matteblue2: "#060f1a",
+        matteblue2: "#000001",
       },
     },
     fontFamily: {
-      body: ["Helvetica"],
+      body: ["Arial"],
 
       logo: ["Michroma"],
-      // logo: ["Michroma"],
     },
   },
   variants: {

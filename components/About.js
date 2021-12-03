@@ -19,7 +19,7 @@ export default function About() {
         <FadeIn>
           <p className="pb-12">
             I{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-700 to-teal-200 via-teal-400 drop-shadow-3xl">
+            <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-600 to-teal-200 via-teal-400 drop-shadow-3xl">
               develop
             </span>{" "}
             fast, responsive, and secure JAMstack websites.
@@ -28,7 +28,7 @@ export default function About() {
         <DelayedFadeIn>
           <p>
             I{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-700 to-teal-200 via-teal-400 drop-shadow-3xl">
+            <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-600 to-teal-200 via-teal-400 drop-shadow-3xl">
               create
             </span>{" "}
             engaging digital experiences through the use of animations and

@@ -65,14 +65,15 @@ export default function Contact() {
             </div>
           </Link>
         </div>
+
+        <footer className="flex justify-center my-6 cursor-pointer h-1/12 font-logo hover:text-teal-300">
+          <a href="/">
+            <p className="text-lg text-center md:text-2xl ">
+              - emurrell.com &ensp;{getCurrentYear()} -
+            </p>
+          </a>
+        </footer>
       </FadeIn>
-      <footer className="flex justify-center pt-6 h-1/12 font-logo">
-        <DelayedFadeIn>
-          <p className="text-center transition duration-200 ease-in-out transform md:text-xl hover:scale-105 filter drop-shadow-3xl">
-            © {getCurrentYear()} EMurrell.com
-          </p>
-        </DelayedFadeIn>
-      </footer>
     </section>
   );
 }

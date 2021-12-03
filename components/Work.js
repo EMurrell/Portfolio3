@@ -1,5 +1,6 @@
 import FadeIn from "../animations/FadeIn";
 import FadeUp from "../animations/FadeUp";
+
 import {
   ExternalLinkIcon,
   ArrowNarrowRightIcon,
@@ -16,25 +17,29 @@ export default function Work() {
     >
       <FadeUp>
         <div className="pb-6 text-2xl text-center text-offwhite md:text-3xl lg:text-5xl ">
-          Work / Projects
+          Work
         </div>
       </FadeUp>
       <FadeIn>
         <div className="flex flex-col justify-center">
-          <Link href="/ptp">
-            <div className="card">
-              <span className="text-sm md:text-xl lg:text-2xl">Pup To Pal</span>
-              <div className="flex flex-row justify-between pt-2">
-                <p className="text-xs leading-loose tracking-widest ">
-                  website/content creation
-                </p>
-                <ArrowRightIcon className="w-6 h-6 -rotate-45" />
+          <Link href="/ptp" scroll={false}>
+            <a>
+              <div className="workcard hover:text-teal-300">
+                <span className="pb-2 text-base md:text-2xl lg:text-3xl">
+                  Pup To Pal
+                </span>
+                <div className="flex flex-row justify-between pt-2">
+                  <p className="text-xs leading-loose tracking-widest ">
+                    website/content creation
+                  </p>
+                  <ArrowRightIcon className="w-6 h-6 -rotate-45 hover:text-teal-300" />
+                </div>
               </div>
-            </div>
+            </a>
           </Link>
           <Link href="/mtc">
-            <div className="card">
-              <span className="text-sm md:text-xl lg:text-2xl">
+            <div className="workcard">
+              <span className="pb-2 text-base md:text-2xl lg:text-3xl">
                 Mason's Touch
               </span>
               <div className="flex flex-row justify-between pt-2">
@@ -47,24 +52,13 @@ export default function Work() {
           </Link>
 
           <Link href="/port">
-            <div className="card">
-              <span className="text-sm md:text-xl lg:text-2xl">Portfolio</span>
+            <div className="workcard">
+              <span className="pb-2 text-base md:text-2xl lg:text-3xl">
+                Portfolio
+              </span>
               <div className="flex flex-row justify-between pt-2">
                 <p className="text-xs leading-loose tracking-widest">
                   website/content creation
-                </p>
-                <ArrowRightIcon className="w-6 h-6 -rotate-45" />
-              </div>
-            </div>
-          </Link>
-          <Link href="/starters">
-            <div className="card">
-              <span className="text-sm md:text-xl lg:text-2xl">
-                UI Components
-              </span>
-              <div className="flex flex-row justify-between pt-2">
-                <p className="text-xs leading-loose tracking-widest ">
-                  ongoing projects
                 </p>
                 <ArrowRightIcon className="w-6 h-6 -rotate-45" />
               </div>

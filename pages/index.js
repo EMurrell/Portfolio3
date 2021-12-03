@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <MetaData />
-      <body className="w-full h-screen overflow-auto snap-y snap-mandatory snap-start">
+      <body className="w-full h-screen overflow-auto snap-y snap-mandatory snap-start ">
         <Header />
         <About />
 
