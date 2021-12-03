@@ -113,7 +113,7 @@ export default function Header() {
           }}
         >
           <a href="/#Contact">
-            <button className="p-2 mt-4 text-sm font-bold tracking-wider text-black transition duration-200 ease-in-out transform bg-transparent rounded-sm cursor-pointer w-36 lg:mt-6 bg-gradient-to-tr from-teal-600 to-teal-200 via-teal-400 lg:w-60 lg:text-lg hover:scale-105">
+            <button className="p-2 mt-4 text-sm font-bold tracking-wider text-black rounded-sm cursor-pointer w-36 lg:mt-6 bg-gradient-to-tr from-teal-600 to-teal-200 via-teal-400 lg:w-60 lg:text-lg ">
               Contact Me
             </button>
           </a>
