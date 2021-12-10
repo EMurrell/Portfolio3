@@ -25,14 +25,14 @@ export default function Skills() {
   return (
     <section
       id="Skills"
-      className="flex flex-col justify-center w-full h-screen pb-24 font-bold tracking-wider md:pb-6 bg-gradient-to-bl from-black to-matteblue via-black snap-y snap-start snap-always md:px-28 lg:px-36 xl:px-72"
+      className="flex flex-col justify-center w-full h-screen pb-24 font-bold tracking-wider text-offwhite font-logo md:pb-6 bg-gradient-to-bl from-black to-matteblue via-black snap-y snap-start snap-always md:px-28 lg:px-36 xl:px-72"
     >
-      <div className="flex flex-col text-offwhite font-logo ">
+      <div className="flex flex-col text-center ">
         <FadeUp>
-          <h1 className="pb-6 text-2xl text-center md:text-3xl lg:text-5xl filter drop-shadow-3xl ">
+          <h1 className="pb-6 text-2xl md:text-3xl lg:text-5xl filter drop-shadow-3xl ">
             Tech Stack
           </h1>
-          <p className="px-16 pb-6 text-center md:px-32 md:text-lg lg:text-xl ">
+          <p className="px-16 pb-6 md:px-32 md:text-lg lg:text-xl ">
             Some of the tools and technologies I use every day
           </p>
         </FadeUp>

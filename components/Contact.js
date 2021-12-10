@@ -68,7 +68,7 @@ export default function Contact() {
 
         <footer className="flex justify-center my-6 cursor-pointer h-1/12 font-logo hover:text-teal-300">
           <a href="/">
-            <p className="text-lg text-center md:text-2xl ">
+            <p className="text-base text-center md:text-xl ">
               - emurrell.com &ensp;{getCurrentYear()} -
             </p>
           </a>

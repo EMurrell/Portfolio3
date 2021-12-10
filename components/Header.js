@@ -31,7 +31,7 @@ export default function Header() {
   return (
     <section
       id="Home"
-      className="flex flex-col w-full h-screen px-2 text-offwhite bg-gradient-to-b from-black to-black via-matteblue snap-y snap-start snap-mandatory md:px-10 lg:px-20 xl:px-28"
+      className="flex flex-col w-full h-screen px-2 text-offwhite bg-gradient-to-b from-black to-black via-matteblue font-logo snap-y snap-start snap-mandatory md:px-10 lg:px-20 xl:px-28"
     >
       <motion.div
         initial="hidden"
@@ -55,7 +55,7 @@ export default function Header() {
       >
         <Nav />
       </motion.div>
-      <main className="flex flex-col justify-center flex-1 h-screen pb-20 pl-5 font-bold tracking-wide lg:leading-loose font-logo md:pl-12 lg:pl-16">
+      <main className="flex flex-col justify-center flex-1 h-screen pb-20 pl-5 font-bold tracking-wide lg:leading-loose md:pl-12 lg:pl-16">
         <motion.h1 variants={headline} initial="hidden" animate="visible">
           {line1.split("").map((char, index) => {
             return (

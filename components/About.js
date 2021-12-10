@@ -12,7 +12,7 @@ export default function About() {
     >
       <div className="flex flex-col text-lg md:text-xl lg:text-2xl ">
         <FadeUp>
-          <h1 className="pb-12 text-2xl md:text-3xl lg:text-5xl font-logo filter drop-shadow-3xl">
+          <h1 className="pb-12 text-2xl md:text-3xl lg:text-5xl filter drop-shadow-3xl">
             Hello, I'm Eric.
           </h1>
         </FadeUp>

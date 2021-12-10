@@ -20,12 +20,10 @@ module.exports = {
       },
 
       colors: {
-        salmon: "#d8323c",
         matte: "#191919",
         ltmatte: "#303030",
         offwhite: "#f2f3f4",
-        dkpurple: "#000914",
-        ltpurple: "#0f0015",
+
         vwblue: "#66fcf1",
         vwblue2: "#45a29e",
         matteblue: "#1f2833",

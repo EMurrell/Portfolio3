@@ -24,7 +24,7 @@ export default function Work() {
         <div className="flex flex-col justify-center">
           <Link href="/ptp" scroll={false}>
             <a>
-              <div className="workcard hover:text-teal-300">
+              <div className="workcard ">
                 <span className="pb-2 text-base md:text-2xl lg:text-3xl">
                   Pup To Pal
                 </span>
@@ -32,7 +32,7 @@ export default function Work() {
                   <p className="text-xs leading-loose tracking-widest ">
                     website/content creation
                   </p>
-                  <ArrowRightIcon className="w-6 h-6 -rotate-45 hover:text-teal-300" />
+                  <ArrowRightIcon className="w-6 h-6 -rotate-45 " />
                 </div>
               </div>
             </a>
